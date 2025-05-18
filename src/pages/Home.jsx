@@ -1,12 +1,9 @@
-import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
+import { Contact } from "../components/Contact.jsx";
 
 export const Home = () => {
-
-  const {store, dispatch} =useGlobalReducer()
-
-	return (
-		<div className="text-center mt-5">
-			
-		</div>
-	);
-}; 
+  return (
+    <div className="text-center mt-5">
+      <Contact />
+    </div>
+  );
+};
